@@ -1,4 +1,4 @@
-#GOOGLE CHART API | EM JAVA SCRIPT#
+Google chart Api | JavaScript
 
 
 <img src="https://static.wixstatic.com/media/40bd48_d4ad1cf4da014b2f86e2621941289fc7~mv2.png/v1/fit/w_770%2Ch_350%2Cal_c/file.png" alt="Javascript">
