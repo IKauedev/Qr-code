@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="https://miro.medium.com/max/640/0*zPG9dqz508rmRR70." type="image/x-icon">
+    <title>QR code</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="logo">
+           <a href="https://www.google.com.br"><img src="./assets/logo.png" alt="Logo google" width="60px" height="40px"></a> 
+            <ul class="Lista">
+                <li class="item"><a href="https://www.google.com.br" target="_blank" rel="noopener noreferrer">Google</a></li>
+                <li class="item"><a href="https://play.google.com/store/apps/details?id=tw.mobileapp.qrcode.banner&hl=pt_BR&gl=US" target="_blank" rel="noopener noreferrer">Leitor de QR Code</a></li>
+                <li class="item"><a href="https://ikauematos.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+                <li class="item"><a href="https://github.com/iKaueMatos" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <div class="container">
+        <h1>Crie seu QRCODE</h1>
+        <textarea maxlength="256" rows="10"  placeholder="Cole seu link aqui"></textarea>
+        <button class="button" id="button" onclick="GerarQRcode()">Gerar QRCode</button>
+        <img  class="qrcode"id="QRcodeimage" />
+    </div> 
+   
+    <footer>
+    <div class="rodape">
+        <ul class="lista-rodape">
+            <li class="item"><a href="https://github.com/iKaueMatos" target="_blank" rel="noopener noreferrer">
+                <img class="img-rodape"src="./assets/github.png" alt="Logo github"></a></li>
+
+            <li class="item"><a href="https://www.linkedin.com/in/kauê-matos-oliveira-a76410213/" target="_blank" rel="noopener noreferrer">
+                <img  class="img-rodape"src="./assets/linkedin (1).png" alt="Logo linkedin"></a></li>
+        </ul>
+        
+        <p>Desenvolvido por Kauê de matos oliveira</p>
+
+    </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

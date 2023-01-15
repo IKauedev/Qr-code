@@ -1,0 +1,29 @@
+@import '../abstract/variaveis';
+
+
+
+.button{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    margin-top:10px;
+    color:white;
+    font-size: 20px;
+    background-color: black;
+    align-items: center;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    border: 0;
+}
+
+@media (max-width:420px){
+    .button{
+        margin-top: 60px;
+        font-size: 14px;
+        width: 130px;
+        height: 50px;
+        border: 0;
+        background-color: $font-color-yellow;
+    }
+}
